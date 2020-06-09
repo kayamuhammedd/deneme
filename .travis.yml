@@ -2,9 +2,12 @@ os: osx
 osx_image: xcode11.5
 language: generic 
 before_script: 
+- export PKG_CONFIG_PATH=/usr/lib/pkgconfig
  - brew update 
  - brew install libplist
- 
+ - brew install --HEAD usbmuxd 
+ - brew unlink usbmuxd 
+ - brew link usbmuxd 
  - brew install --HEAD libimobiledevice 
  - brew install ideviceinstaller 
  - brew install ios-deploy
