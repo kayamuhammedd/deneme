@@ -27,7 +27,7 @@ deploy:
   provider: releases
   api_key:
     secure: OUmNCjVf8X8mIHGOtRk/qtUK8d+6MiZl2DS3GJsIFeWVPGp8ABJl1esfuuEQeUlKDBDsjwh+hLDmjfH4MdBC7ulq4U8wmlgH9K0O8eCczzCLNBrheQbuV3o4G91+DzRQK5bJSpSnd0Jugue2bv/HP71cbOT2xf5QKIh6QiwRtheq2OmFh2a7o6uGKv1RYlRDTBSNJx9qrcNotsSdaAyeA2+RmV4ENfI+UY08IM9ZFLh/YoiqBCWRFWFFXPv3HR5P89kiKiSyFXRc7DMEX4iqSDlp6KmfCohF3LKKrwICZrvzqT9ucBiew4CUwIDB2nutPSy3r0Ww86C5im167UKXAYIAoQTm7YZdK+ektOlQhf7VLgbrO/NydwXVldHKv729+HEYfcb2D3gxboYzFsihHB+10tvKztC+MorS37x/R+1PcldvTt+IPw1A6ozB5cuodMLPFx70VwVClaNiCogGcWLi7zhfccXmVLDGPyeGXCBafOICbUj0lfHVx/Q9Ki2WL+TKj3Ip1+/jOM5+Dq/ZcQASTjDyn4In528JreSwesE5mq8t4AgvddCwKYT91ddnZhW5MbmZLthdMXBaW1GaC3fR1lVoXlGe6qEme+WX9ESrnzSJBJ7dh5pqtjeDAMWjd4KyX0/jMO7cLCzqDQDoWD7KPcV3DxtxyM/5MlSLG0U=
-  file: ''
+  file: build/ios/iphoneos/app.ipa
   on:
     repo: kayamuhammedd/deneme
   skip_cleanup: 'true'
