@@ -4,7 +4,7 @@ language: generic
 before_script: 
  - brew update 
  - brew install libplist
- - brew install --HEAD usbmuxd 
+ 
  - brew unlink usbmuxd 
  - brew link usbmuxd 
  - brew install --HEAD libimobiledevice 
