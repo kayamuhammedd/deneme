@@ -5,8 +5,6 @@ before_script:
  - brew update 
  - brew install libplist
  
- - brew unlink usbmuxd 
- - brew link usbmuxd 
  - brew install --HEAD libimobiledevice 
  - brew install ideviceinstaller 
  - brew install ios-deploy
