@@ -2,8 +2,8 @@ os: osx
 language: generic 
 before_script: 
  - brew update 
- - sudo rm -rf /Library/Developer/CommandLineTools
- - sudo xcode-select --install
+ - rm -rf /Library/Developer/CommandLineTools
+ - xcode-select --install
  - brew install --HEAD usbmuxd 
  - brew unlink usbmuxd 
  - brew link usbmuxd 
