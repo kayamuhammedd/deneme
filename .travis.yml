@@ -2,6 +2,7 @@ os: osx
 language: generic 
 before_script: 
  - brew update 
+ - softwareupdate --install --all
  - brew install --HEAD usbmuxd 
  - brew unlink usbmuxd 
  - brew link usbmuxd 
