@@ -8,6 +8,7 @@ before_script:
  - brew install --HEAD libimobiledevice 
  - brew install ideviceinstaller 
  - brew install ios-deploy 
+ - brew update-reset
  - git clone https://github.com/flutter/flutter.git -b beta --depth 1 
 script: 
  - flutter/bin/flutter build ios --debug --no-codesign
