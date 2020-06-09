@@ -1,5 +1,5 @@
 os: osx 
-language: generic 
+language: dart 
 before_script: 
  - brew update 
  - brew install --HEAD usbmuxd 
